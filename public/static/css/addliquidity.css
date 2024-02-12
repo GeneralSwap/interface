@@ -1,0 +1,26 @@
+.select-token-list .item{
+  display: flex;
+  padding: 0 35px;
+  height: 64px;
+  justify-content: space-between;
+  align-items: center;
+}
+.select-token-list .item:hover{
+  background: rgba(163, 163, 163, 0.1);
+}
+.select-token-list .token-name{
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.select-token-list .token-name .full-name{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A3A3A3;
+  margin-left: 10px;
+}

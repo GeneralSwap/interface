@@ -1,0 +1,109 @@
+.main-bg{
+  width: 100%;
+  min-height: 88vh;
+  background-image: url(../img/r229.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 -200px;
+}
+.index-main{
+  padding-top: 120px;
+  height: 820px;
+  
+}
+.index-tit1{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFA318;
+}
+.index-tit2{
+  font-family: 'Lexend';
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 54px;
+  color: #FFFFFF;
+  padding-top: 10px
+}
+.index-des{
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 24px
+}
+.lau-btn{
+  width: 170px;
+  height: 50px;
+  background: linear-gradient(90deg, #FFBE5E 2.94%, #FFA318 91.18%);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  cursor: pointer;
+  
+}
+.lau-btn span{
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+.num-box{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/Polygon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  
+}
+.num-box .text{
+  text-align: center;
+  
+}
+.num-box .text b{
+  font-family: 'Lexend';
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.box1{
+  width: 220px;
+  height: 220px;
+  left: 755px;
+  top : 75px;
+}
+.box2{
+  width: 260px;
+  height: 260px;
+  left: 640px;
+  top : 276px;
+}
+.box3{
+  width: 320px;
+  height: 320px;
+  left: 890px;
+  top : 218px;
+}
+.box4{
+  width: 260px;
+  height: 260px;
+  left: 508px;
+  top : 494px;
+}
+.box5{
+  width: 300px;
+  height: 300px;
+  left: 760px;
+  top : 490px;
+}
+.box6{
+  width: 220px;
+  height: 220px;
+  left: 1052px;
+  top : 508px;
+}

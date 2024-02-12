@@ -1,0 +1,220 @@
+.top{
+  height: 120px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(163, 163, 163, 0.12);
+  
+}
+.top .tit h2{
+  font-family: 'Lexend';
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.top .tit .icons{
+  display: flex;
+  align-items: center;
+}
+.con{
+  padding: 0 40px;
+  
+}
+.con .con-tit{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4px;
+  padding-top: 24px;
+  
+}
+.con .con-tit h3{
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF
+}
+.con .con-tit .con-tit-right{
+  display: flex;
+  align-items: center;
+}
+.exc-box{
+  height: 90px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(163, 163, 163, 0.1);
+  border-radius: 20px;
+  padding: 0 16px;
+  display: flex;
+  
+}
+.exc-box .currency-type{
+  display: flex;
+  align-items: center;
+  border-right: 1px solid rgba(163, 163, 163, 0.1);
+  width: 130px;
+  cursor: pointer;
+  
+}
+.exc-box .currency-type .text{
+  font-family: 'Lexend';
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 0 6px
+}
+.exc-icon{
+  display: flex;
+  justify-content: center;
+  padding: 8px 0
+}
+.exc-ipt{
+  font-weight: 600;
+  font-size: 32px;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  color: #fff;
+}
+.exc-bot{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 0 4px;
+  padding-top: 24px
+}
+.swap-btn{
+  height: 60px;
+  background: linear-gradient(90deg, #FFBE5E 2.94%, #FFA318 91.18%);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 24px;
+  cursor: pointer
+}
+
+
+.selTokModal-dialog{
+  width: 500px;
+  margin-top: 200px;
+}
+.selTokDia .top-sea{
+  position: relative;
+  padding: 15px 0 0 20px;
+}
+.selTokDia .top-sea .sea-ipt{
+  width: 430px;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(163, 163, 163, 0.12);
+  border-radius: 20px;
+  padding-left: 40px;
+}
+.selTokDia .top-sea img{
+  position: absolute;
+  left: 30px;
+  top: 35px;
+}
+.selTokDia .tit{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #A3A3A3;
+  padding: 22px 0 18px 38px;
+  border-bottom: 1px solid rgba(163, 163, 163, 0.12);;
+}
+.tok-list .item{
+  display: flex;
+  padding: 0 36px;
+  height: 64px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+}
+.tok-list .item:hover{
+  background: rgba(163, 163, 163, 0.1);
+}
+.tok-list .item .tok-name{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.tok-list .item .tok-name b{
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 14px 0 10px;
+}
+.tok-list .item .bla{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.slipModal-dialog{
+  width: 500px;
+  margin-top: 200px;
+}
+.slip{
+  height: 220px;
+}
+.slip-sels{
+  padding: 15px 0 0 20px;
+  display: flex;
+}
+.slip-sels .sel-item{
+  background: #19191B;
+  border: 2px solid rgba(163, 163, 163, 0.5);
+  border-radius: 10px;
+  margin-right: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  width: 80px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slip-sels .sel-item.cur{
+  border: 2px solid #FFA318;
+  color: #FFA318;
+}
+.slip-sels .sel-ipt{
+  width: 140px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(163, 163, 163, 0.12);
+  border-radius: 10px;
+  padding: 0 30px 0 15px;
+  outline: none;
+}
+.slip-sels .centi{
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.slip-tip{
+  font-weight: 500;
+  color: #DA2929;
+  padding-left: 36px;
+  padding-top: 14px;
+}
+.slip-btn{
+  width: 170px;
+  height: 50px;
+  background: linear-gradient(90deg, #FFBE5E 2.94%, #FFA318 91.18%);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #000000;
+  margin: 0 auto;
+  margin-top: 16px;
+  cursor: pointer;
+}

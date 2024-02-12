@@ -1,0 +1,3 @@
+$(function() {
+  $('#selectWalModal').modal('hide')
+})

@@ -1,0 +1,58 @@
+.tit2{
+  padding-top: 56px;
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+.des{
+  margin-bottom: 50px;
+}
+.lau-box{
+  height: 180px;
+  border: 1px solid rgba(163, 163, 163, 0.12);
+  background: rgba(163, 163, 163, 0.05);
+  border-radius: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+
+}
+.lau-box .left{
+  padding-left: 36px;
+
+}
+.left-tit{
+  display: flex;
+  align-items: center
+
+}
+.lau-box .right{
+  height: 100px;
+  border-left: 1px solid rgba(163, 163, 163, 0.12);
+  margin-left: 36px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px 0 48px
+
+}
+.lau-box .right .right-item{
+  min-width: 180px;
+  padding-right: 20px
+
+}
+.lau-box .right .right-item .lab{
+  font-weight: 500;
+}
+.lau-box .right .right-item .con{
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 12px;
+  padding-left: 0px;
+}
+.lau-box .right .right-item .red{
+  color: #DA2929
+}
+.lau-box .right .right-item .green{
+  color: #29B478
+}

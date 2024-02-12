@@ -1,0 +1,29 @@
+.footer{
+  border-top:  1px solid rgba(163, 163, 163, 0.12);
+  
+}
+.footer-con{
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+.footer-links{
+  display: flex;
+  align-items: center;
+  
+}
+.footer-links .link{
+  margin-right: 34px;
+}
+.footer-logo{
+  display: flex;
+  align-items: center;
+  
+}
+.footer-logo .logo-text{
+  font-size: 24px;
+  margin-left: 8px;
+}

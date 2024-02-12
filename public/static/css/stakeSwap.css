@@ -1,0 +1,157 @@
+.main-bg{
+  width: 100%;
+  min-height: 88vh;
+  background-image: url(../img/r229.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.center-box{
+  width: 580px;
+  height: 930px;
+  background: rgba(25, 25, 27, 0.8);
+  border: 1px solid rgba(163, 163, 163, 0.15);
+  border-radius: 50px;
+  margin: 0 auto;
+  
+}
+.top{
+  height: 120px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(163, 163, 163, 0.12);
+  
+}
+.top .tit{
+  font-family: 'Lexend';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center
+  
+}
+.top .tit img{
+  margin-right: 16px
+}
+.con{
+  padding: 0 40px
+  
+}
+.con-tip{
+  padding-top: 28px;
+  line-height: 20px;
+  
+}
+.con-tip b{
+  font-weight: 700;
+  color: #FFA318;
+}
+.con-tit{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4px;
+  padding-top: 36px
+  
+}
+.con-tit h3{
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF
+}
+.con-tit .con-tit-right{
+  display: flex;
+  align-items: center
+}
+.exc-box{
+  height: 90px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(163, 163, 163, 0.1);
+  border-radius: 20px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  
+}
+.exc-box .currency-type{
+  display: flex;
+  align-items: center;
+  border-right: 1px solid rgba(163, 163, 163, 0.1);
+  width: 124px;
+  height: 88px;
+  flex-shrink: 0;
+  
+}
+.exc-box .currency-type .text{
+  font-family: 'Lexend';
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 0 6px
+}
+.exc-box .ipt{
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  padding: 0 18px
+}
+.exc-box .ipt.dis{
+  color: rgba(163, 163, 163, 0.5);
+}
+.exc-icon{
+  display: flex;
+  justify-content: center;
+  padding: 8px 0
+}
+.pri{
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.exc-bot{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgba(163, 163, 163, 0.12);
+  border-radius: 20px;
+  margin-top: 28px;
+  height: 120px;
+  color: rgba(163, 163, 163, 0.6);
+  
+}
+.exc-bot span{
+  text-align: center
+}
+.exc-bot b{
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF
+}
+.conwal-btn{
+  height: 60px;
+  background: linear-gradient(90deg, #FFBE5E 2.94%, #FFA318 91.18%);
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.conwal-btn img{
+  margin-left: 10px
+}
